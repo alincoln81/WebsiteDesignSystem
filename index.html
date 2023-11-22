@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Style Guide</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playpen+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1 class="heading">Website Style Guide</h1>
+        </header>
+
+        <main>
+
+            <section class="colors"> <!-- COLORS -->
+                <!-- 
+                    Your style guide should include a labeled section outlining the colors to be used.
+
+                    Each color should have:
+
+                    A name (you can come up with this name yourself)
+                    A box displaying the color itself.
+                    The CSS value used to create the color (in hex, rgb(), rgba(), hsl(), or hsla()).
+                    An optional description of how you intend to use the colors.
+                 -->
+                 <table>
+                    <tr>
+                        <th colspan="4">Color Style Guide</th>
+                    </tr>
+                    <tr>
+                        <td class="primary">
+                            <div class="container"><div class="content">
+                                Primary Color<br>
+                                Dark Gray<br>
+                                Hex: #2C2C2C
+                                <p class="left">Default Background Color, when background color is light, this should be the primary font color.</p>
+                            </div></div>
+                        </td>
+                        <td class="secondary">
+                            <div class="container"><div class="content">
+                                Secondary Color<br>
+                                Denim<br>
+                                Hex: #235db8
+                                <p class="left">Default Heading and Sub-Heading color, to bbe used for links on light background.</p>
+                            </div></div>
+                        </td>
+                        <td class="tertiary">
+                            <div class="container"><div class="content">
+                                Tertiary Color<br>
+                                Light Blue<br>
+                                Hex: #8ab4f8
+                                <p class="left">Accent color, to be used for links on dark background.</p>
+                            </div></div>
+                        </td>
+                        <td class="main-text">
+                            <div class="container"><div class="content">
+                                Font Color<br>
+                                Light Grey<br>
+                                Hex: #cfcece
+                                <p class="left">Primary Font Color, to be used for links on dark background.</p>
+                            </div></div>
+                        </td>
+                    </tr>
+                 </table>
+            </section>
+
+            <section class="fonts"> <!-- FONTS -->
+                <!-- 
+
+                    Your style should include a labeled section of the fonts to be used (we recommend importing fonts from Google Fonts).
+
+                    For each font, the goal is to to demonstrate the various styles that you intend to use (font weight, style, size, and text decorations). 
+                    To do this, you should include the following for every font:
+
+                    The font name
+                    A series of styles that you intend to use (for example, styles could include: plain, bold and italic, underlined).
+                    For each style, include a sentence or series of words to demonstrate the text style (our example site uses the quick brown fox…).
+                    Make sure to display each of the sections in the proper font, size, and style.
+                 -->
+                 <table>
+                    <tr>
+                        <th colspan="2">Font Style Guide</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h1 class="heading margin-top">Heading One (h1), Main titles, Hero Font, above the fold</h1>
+                            <p class="text-light">
+                                font-family: 'Playpen Sans', cursive;<br> 
+                                font-weight: 700;<br> 
+                                font-size: 30px;<br>
+                                color: #235db8;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <h2 class="heading margin-top">Heading Two (h2), Section headings</h2>
+                            <p class="text-light">
+                                font-family: 'Playpen Sans', cursive;<br> 
+                                font-weight: 500;<br> 
+                                font-size: 26px;<br>
+                                color: #235db8;
+                            </p>
+                        </td>
+                        <td>
+                            <h3 class="heading margin-top">Heading Three (h3), Subtitles</h3>
+                            <p class="text-light">
+                                font-family: 'Playpen Sans', cursive;<br> 
+                                font-weight: 400;<br> 
+                                font-size: 22px;<br>
+                                color: #235db8;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="navigation margin-top"><a class="light-link">Main Navigation</a></p>
+                            <p class="text-light">
+                                font-family: 'Lato', san-serif;<br> 
+                                font-weight: 700;<br> 
+                                font-size: 20px;<br>
+                                color: #8ab4f8;
+                            </p>
+                        </td>
+                        <td>
+                            <p class="sub-navigation margin-top"><a class="light-link">Sub Navigation</a></p>
+                            <p class="text-light">
+                                font-family: 'Lato', san-serif;<br> 
+                                font-weight: 400;<br> 
+                                font-size: 18px;<br>
+                                color: #8ab4f8;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="breadcrumbs margin-top"><a class="light-link">Breadcrumb Navigation</a></p>
+                            <p class="text-light">
+                                font-family: 'Lato', san-serif;<br> 
+                                font-weight: 300;<br> 
+                                font-style: italic;<br>
+                                font-size: 14px;<br>
+                                color: #8ab4f8;
+                            </p>
+                        </td>
+                        <td>
+                            <p class="text-light margin-top">Lato 400 18px - This the default Paragraph font.</p>
+                            <p class="text-light">
+                                font-family: 'Lato', san-serif;<br> 
+                                font-weight: 400;<br> 
+                                font-size: 18px;<br>
+                                color: #cfcece;
+                            </p>
+                        </td>
+                    </tr>
+                 </table>
+            </section>
+
+            <section class="layout"> <!-- LAYOUT -->
+                <!-- 
+                    In addition to the list of possible fonts, your style guide should include a section for specific text styles for page elements. 
+                    For example, you could set main heading (<h1>) guidelines about text size, fonts, font styles, font weight, and more.
+
+                    Include at least 3 element styles, and ideally as many as you’d like to use in future sites.
+
+                    For each page element, include:
+
+                    A page element name (for example, “Subheading”).
+                    All style rules (for example, font-weight: 700).
+                 -->
+                 <table>
+                    <tr>
+                        <th>Styling Sample</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <nav class="navigation light-link">
+                                <ul>
+                                    <li class="first"><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="hero">
+                                <div>
+                                    <h1 class="heading">Page Title</h1> <!-- Title -->
+                                </div>
+                                <img src="./hero.jpeg" alt="Hero Image"> <!-- Hero Image -->
+                            </div>
+                            <div class="breadcrumbs light-link">
+                                <ul>
+                                    <li class="first"><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="section">
+                                <h2 class="heading">Section Headimg</h2> <!-- Heading -->
+                                <p class="text-light">This is a sample paragraph with the default font color on the default background color.</p> <!-- Paragraph -->
+                                
+                                <h3 class="heading">Sub Heading</h3> <!-- Sub Heading -->
+                                <p class="text-light">This is smoe more light colored text in a drak background. Here is howv a <a class="light-link" href="#">link</a> should look on a dark background.</p> <!-- Paragraph -->
+                            </div>
+                        </td>
+                    </tr>
+                 </table>
+            </section>
+
+            <section class="additional"> <!-- ADDITIONAL -->
+                <!-- 
+                    Add any additional styles that you’d like to include to make your style guide/design system look great. 
+                    This could include positioning, layout, additional colors, box model properties, and more.
+
+                    If you’d like some inspiration, you can look to the following samples:
+
+                    Salesforce’s Lightning Design System
+                    Google’s Material Design
+                    Twitter’s Bootstrap.
+                 -->
+            </section>
+
+        </main>
+
+        <footer>
+            <a href="#" class="light-link">Back to top ^</a>
+        </footer>
+
+    </body>
+</html>
